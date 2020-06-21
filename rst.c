@@ -12,8 +12,8 @@ int main (int argc, char *argv[])
 {
     /* check args */
     if (argc < 3) {
-        printf("Usage: ./rc value precision\n");
-        printf("Example: ./rc 3.1415926536 0.001\n");
+        printf("Usage: ./rst value precision\n");
+        printf("Example: ./rst 3.1415926536 0.001\n");
         exit(0);
     }
 

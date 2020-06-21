@@ -22,8 +22,8 @@ To build the program, run `make` inside the project's root folder.
 ### Usage
 
 ```
-./rc value precision > output.txt
-Example: ./rc 3.1415926536 0.001 > output.txt
+./rst value precision > output.txt
+Example: ./rst 3.1415926536 0.001 > output.txt
 ```
 
 ### Extra
