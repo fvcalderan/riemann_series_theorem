@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<!--Author: Felipe V. Calderan
+    Copyright: Copyright (C) 2020 Felipe V. Calderan
+    License: BSD 3-Clause "New" or "Revised" License
+    Version: 1.0
+-->
+
+<html>
+
+<title>Evaluator</title>
+
+<script language="JavaScript">
+    function calc()
+    {
+        document.getElementById("result").innerHTML = eval(document.getElementById("inputcalc").value)
+    }
+</script>
+
+<body>
+    <h2>Evaluator</h2>
+
+    <p>Insert expression in the text area below:</p>
+
+    <textarea id="inputcalc" rows="20" cols="80"></textarea>
+
+    <p><b>Result:</b><p>
+    <p id="result">0</p>
+
+    <td align="left"><input type="button" value="Evaluate" onclick="calc()"></td>
+
+</body>
+
+</html>
